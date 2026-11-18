@@ -4,7 +4,8 @@ Usage: python tools/make_public_data.py PATH/TO/cv.xlsx
 
 Only the sheets and columns listed in PUBLIC are copied. Everything else in the
 workbook (referees, non-approved projects, external services, annex lists,
-funding amounts, notes) stays private and never reaches this repository.
+funding amounts, notes, Pending_Communications) stays private.
+Cells marked [TO CONFIRM] are left out and never reaches this repository.
 """
 import sys, os, datetime
 import openpyxl, yaml
@@ -22,6 +23,8 @@ PUBLIC = {  # output file: (sheet, {column in workbook: key in yml})
     'reports':     ('Technical_Publications', {'Year': 'year', 'Authors': 'authors', 'Title': 'title', 'Commissioning body / Venue': 'venue', 'DOI/URL': 'link'}),
     'projects':    ('Projects', {'Years': 'years', 'Project': 'project', 'Role': 'role', 'Principal Investigator': 'pi', 'Responsible Institution': 'institution', 'Funding Source (Reference)': 'funder'}),
     'talks':       ('Invited_Oral_Presentations', {'Year': 'year', 'Title': 'title', 'Event / Conference': 'event', 'Location': 'location', 'URL / DOI': 'link'}),
+    'orals':       ('Oral_Presentations', {'Year': 'year', 'Title': 'title', 'Authors': 'authors', 'Event / Conference': 'event', 'Location': 'location', 'URL / DOI': 'link'}),
+    'posters':     ('Posters', {'Year': 'year', 'Title': 'title', 'Authors': 'authors', 'Event / Conference': 'event', 'Location': 'location', 'URL / DOI': 'link'}),
     'teaching':    ('Teaching', {'Academic Year': 'year', 'Institution': 'institution', 'Title': 'title', 'Course(s)': 'courses', 'Hours': 'hours'}),
     'supervision_phd': ('PhD&Postdoc_Supervisions&Tech', {'Level': 'level', 'Author': 'name', 'Title': 'title', 'Degree/Field': 'degree', 'Institution/Department': 'institution', 'Years': 'years', 'Role': 'role'}),
     'supervision_other': ('Other_Supervision', {'Level': 'level', 'Author': 'name', 'Title': 'title', 'Degree/Field': 'degree', 'Institution/Department': 'institution', 'Years': 'years', 'Role': 'role'}),
@@ -33,6 +36,7 @@ def clean(v):
     if isinstance(v, datetime.datetime): return v.strftime('%Y-%m')
     if isinstance(v, float) and v.is_integer(): v = int(v)
     v = str(v).strip() if v not in EMPTY else None
+    if v and 'TO CONFIRM' in v: return None  # unconfirmed values stay private
     return None if v in EMPTY else v
 
 def main(path):

@@ -1,6 +1,6 @@
 ---
 title: "Talks"
-subtitle: "Invited talks"
+subtitle: "Invited talks, conference talks and posters"
 ---
 
 {{< include _gen/talks.md >}}

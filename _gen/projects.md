@@ -7,13 +7,13 @@
 - **PHAME – Advancing sustainable agriculture with PHA Mulch Films Innovations with Economic Impact** (2025–2028)  
   Researcher · PI: Diogo Proença · FCT – COMPETE2030 – FEDER (Ref. COMPETE2030-FEDER-00711600)
 - **PRESINMED – Preserving the singularity of Mediterranean high-mountain biodiversity hotspots: a NBS approach** (2025–2028)  
-  Researcher · PI: Susana Rodríguez Echeverría · Horizon Europe (Grant Agreement 101135213 — HORIZON-CL6-2023-BIODIV-01-1)
+  Researcher · PI: Susana Rodríguez Echeverría
 - **SYBERAC – Towards a SYstems-Based, holistic Environmental Risk Assessment of Chemicals** (2024–2028)  
   Researcher · PI: Nico van den Brink · Horizon Europe (Grant Agreement 101135213 — HORIZON-CL6-2023-BIODIV-01-1)
 - **EESE (EFSA) – EU Environmental Scenarios for ERA of Non-Target Organisms** (2024–2028)  
-  Researcher · PI: Nico van den Brink · Horizon Europe (Grant Agreement 101135213 — OC/EFSA/PREV/2023/02)
+  Researcher · PI: Nico van den Brink · EFSA (OC/EFSA/PREV/2023/02)
 - **GRASS4FUN – Monitoring the contribution of European grasslands to the conservation of soil biodiversity and ecosystem function under multiple global change stressors** (2024–2026)  
-  Researcher · PI: Manuel Delgado-Baquerizo & Pablo García-Palacios · Horizon Europe (Grant Agreement 101135213 — HORIZON-CL6-2023-BIODIV-01-1)
+  Researcher · PI: Manuel Delgado-Baquerizo & Pablo García-Palacios · Biodiversa+ / FCT
 - **VALERECO – Valorization Legumes Related Ecosystem Services** (2024–2028)  
   Researcher · PI: Ilias Travlos · Horizon Europe (Grant Agreement 101135472 — HORIZON-CL6-2023-BIODIV-01-16)
 - **BENCHMARKS – Building a European Network for the Characterisation and Harmonisation of Monitoring Approaches for Research and Knowledge on Soils** (2023–2027)  

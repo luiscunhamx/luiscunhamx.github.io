@@ -23,13 +23,13 @@
 | 2020/2021 | Ecotoxicology and Ecological Risk Assessment (Practical) | International MSc in Applied Ecology; MSc in Biological Resources | University of Coimbra | 8 |
 | 2020/2021 | Field Course in Mediterranean Ecosystems (Fieldwork) | International MSc in Applied Ecology; MSc in Ecology | University of Coimbra | 8 |
 | 2020/2021 | Field Course in Mediterranean Ecosystems (Practical) | International MSc in Applied Ecology | University of Coimbra | 8 |
-| 2020–2024 | Conservation Genetics and Wildlife Management | Year 2 undergraduate | University of South Wales | 40/year = 200 |
-| 2020–2023 | Biological Research Skills | Year 1 undergraduate | University of South Wales | 48/year = 192 |
-| 2020–2023 | Biological Research Skills | Year 1 undergraduate | University of South Wales | 40/year = 160 |
-| 2020–2023 | Terrestrial and Aquatic Conservation (Forests and Wildlife Conservation; MSc) | MSc in Wildlife Conservation | University of South Wales | 8/year = 32 |
-| 2020–2023 | Big Game Tracking / African Biodiversity (Residential Field Trip, South Africa) | Year 1 undergraduate | University of South Wales | Lecture: 14; Tutorial: 20; Fieldwork: 112 = 146 each x3 = 438 |
-| 2020–2023 | Evolutionary Botany and Zoology | Year 1 undergraduate | University of South Wales | 8/year = 32 |
+| 2020–2024 | Conservation Genetics and Wildlife Management | Year 2 undergraduate | University of South Wales | 200 |
+| 2020–2023 | Biological Research Skills | Year 1 undergraduate | University of South Wales | 192 |
+| 2020–2023 | Biological Research Skills | Year 1 undergraduate | University of South Wales | 160 |
+| 2020–2023 | Terrestrial and Aquatic Conservation (Forests and Wildlife Conservation; MSc) | MSc in Wildlife Conservation | University of South Wales | 32 |
+| 2020–2023 | Big Game Tracking / African Biodiversity (Residential Field Trip, South Africa) | Year 1 undergraduate | University of South Wales | 438 |
+| 2020–2023 | Evolutionary Botany and Zoology | Year 1 undergraduate | University of South Wales | 32 |
 | 2019/2020 | Field Course in Mediterranean Ecosystems | International MSc in Applied Ecology | University of Coimbra | 8 |
-| 2018–2019 | Biological Research Skills | Year 1 undergraduate | University of South Wales | 40/year = 80 |
-| 2018–2019 | Conservation Genetics and Wildlife Management | Year 2 undergraduate | University of South Wales | 40/year = 80 |
-| 2018–2019 | Marine and Freshwater Biology | Year 3 undergraduate | University of South Wales | 48/year = 96 |
+| 2018–2019 | Biological Research Skills | Year 1 undergraduate | University of South Wales | 80 |
+| 2018–2019 | Conservation Genetics and Wildlife Management | Year 2 undergraduate | University of South Wales | 80 |
+| 2018–2019 | Marine and Freshwater Biology | Year 3 undergraduate | University of South Wales | 96 |

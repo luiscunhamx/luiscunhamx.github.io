@@ -19,7 +19,7 @@ def cite(r):
     link = doi(r.get('doi')) or (f" [link]({r['link']})" if r.get('link', '').startswith('http') else '')
     return f"{bold_me(r.get('authors'))} ({r.get('year','')}). {esc(str(r.get('title','')).rstrip('.'))}. *{venue}*{vol}.{link}"
 
-def by_year(recs, fmt, key='year'):
+def by_year(recs, fmt, key='year', h='###'):
     out, cur = [], None
     for r in sorted(recs, key=lambda r: -ystart(r.get(key, 0))):
         y = ystart(r.get(key, 0)) or 'Undated'
@@ -38,7 +38,13 @@ write('projects', '\n'.join(
     + (f" · {esc(p['funder'])}" if p.get('funder') else '')
     for p in sorted(load('projects'), key=lambda p: -ystart(p.get('years')))))
 
-write('talks', by_year(load('talks'), lambda t: f"{esc(t['title'])}" + (f". {esc(t['event'])}" if t.get('event') else '') + (f", {esc(t['location'])}" if t.get('location') else '') + (f". [link]({t['link']})" if str(t.get('link','')).startswith('http') else '') + '.'))
+def talk(t):
+    s = (bold_me(t['authors']) + '. ' if t.get('authors') else '') + esc(str(t['title']).strip().rstrip('.'))
+    s += (f". *{esc(t['event'])}*" if t.get('event') else '') + (f", {esc(t['location'])}" if t.get('location') else '')
+    return s + (f". [link]({t['link']})" if str(t.get('link', '')).startswith('http') else '') + '.'
+inv, ora, pos = load('talks'), load('orals'), load('posters')
+write('talks', f"{len(inv)} invited talks, {len(ora)} contributed talks and {len(pos)} posters, newest first.\n\n## Invited talks\n" + by_year(inv, talk)
+      + '\n\n## Contributed talks\n' + by_year(ora, talk) + '\n\n## Posters\n' + by_year(pos, talk))
 
 def sup(r): return f"**{esc(r.get('name',''))}** ({esc(r.get('level',''))}, {r.get('years','')}). *{esc(r.get('title',''))}*. {esc(r.get('degree',''))}, {esc(r.get('institution',''))}. {esc(r.get('role',''))}."
 write('supervision', '## Doctoral and postdoctoral\n\n' + '\n'.join(f'- {sup(r)}' for r in sorted(load('supervision_phd'), key=lambda r: -ystart(r.get('years'))))
