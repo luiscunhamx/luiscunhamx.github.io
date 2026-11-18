@@ -1,0 +1,57 @@
+---
+pagetitle: "Luís Cunha — molecular ecologist"
+toc: false
+page-layout: full
+---
+
+::: {.hero}
+::: {.hero-text}
+# Luís Cunha
+
+[Molecular ecologist reading soil biodiversity through genomes, from volcanic islands to Amazonian dark earths and European farmland.]{.lede}
+
+Coordinating Researcher at the Centre for Functional Ecology, University of Coimbra, where I lead the [Environmental Genomics Laboratory (EnGeL)](https://envigenomics.eu). I turn field samples into sequence data and sequence data into indicators that soil policy can use.
+
+::: {.actions}
+[Download CV (PDF)](cv.pdf){.btn .btn-primary}
+[Email me](mailto:luis.cunha@uc.pt){.btn .btn-outline-primary}
+[ORCID](https://orcid.org/0000-0002-5870-2537){.btn .btn-link}
+[Google Scholar](https://scholar.google.pt/citations?user=_HJekuoAAAAJ&hl=en){.btn .btn-link}
+:::
+:::
+
+::: {.hero-core}
+{{< include _gen/core.md >}}
+:::
+:::
+
+::: {.home-body}
+
+## What I bring
+
+::: {.bring}
+::: {}
+### Research leadership
+Work-package leader and UC coordinator in the Horizon Europe project BENCHMARKS (harmonised soil-health monitoring across Europe). Coordinator of EnGeL at UC Biotech and co-coordinator of the Soil Health research line (CFE) and of Thematic Line 2 of the TERRA associate laboratory. [Projects](projects.qmd)
+:::
+
+::: {}
+### Genomics in the field and at the bench
+High-throughput sequencing (Nanopore and Illumina) for metabarcoding, metagenomics, RNA-Seq and genome assembly, with reproducible pipelines in R and Python. The lab's methods are open as a [protocol handbook](https://luiscunhamx.github.io/EnGeL-Repository/). [Research](research.qmd)
+:::
+
+::: {}
+### Teaching and mentoring
+Fellow of the Higher Education Academy (FHEA). Lecturer in Ecology at the University of South Wales before joining Coimbra; I now teach in the University of Coimbra's international MSc programmes and supervise doctoral and master's students. [Teaching & supervision](teaching.qmd)
+:::
+:::
+
+## Selected publications
+
+{{< include _gen/selected.md >}}
+
+[All publications](publications.qmd)
+
+{{< include _gen/chart.md >}}
+
+:::

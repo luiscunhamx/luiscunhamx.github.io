@@ -1,0 +1,16 @@
+---
+title: "Research"
+---
+
+My research covers three connected lines. The lab's full research pages, projects and team are on the **[EnGeL website](https://envigenomics.eu/research.html)**.
+
+## Soil biodiversity and soil health
+Developing and validating DNA-based approaches (barcoding, metabarcoding and integrative morphological–molecular methods) that make soil biodiversity measurable and comparable, and feed harmonised soil-health monitoring across Europe (BENCHMARKS).
+
+## Humans written into the soil
+Biodiversity signatures of ecosystems shaped by people, in particular the Amazonian Dark Earths (*terra preta*): the role of ecosystem-engineer earthworms, and genomics of a peregrine earthworm species as a mirror of human history in the Amazon.
+
+## Life on the volcanic edge
+How earthworms and other invertebrates adapt their genomes and physiology to extreme, multi-stressor volcanic and geothermal soils.
+
+See also: [Publications](publications.qmd) · [Projects](projects.qmd)

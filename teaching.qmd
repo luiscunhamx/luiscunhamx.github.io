@@ -1,0 +1,11 @@
+---
+title: "Teaching & supervision"
+---
+
+## Teaching
+
+{{< include _gen/teaching.md >}}
+
+# Supervision
+
+{{< include _gen/supervision.md >}}

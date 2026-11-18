@@ -1,0 +1,15 @@
+---
+title: "Curriculum vitae"
+format:
+  html: default
+  typst:
+    output-file: cv
+---
+
+{{< include _gen/cv.md >}}
+
+## Selected publications
+
+{{< include _gen/selected.md >}}
+
+Full list: <https://luiscunhamx.github.io/publications.html>

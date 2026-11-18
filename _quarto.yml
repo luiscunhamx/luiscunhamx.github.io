@@ -1,0 +1,42 @@
+project:
+  type: website
+  pre-render: python tools/build_pages.py
+
+website:
+  title: "Luís Cunha"
+  description: "Molecular ecologist, University of Coimbra — soil biodiversity, environmental genomics and ecosystem functioning."
+  site-url: https://luiscunhamx.github.io/
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: projects.qmd
+        text: Projects
+      - href: teaching.qmd
+        text: Teaching & supervision
+      - href: talks.qmd
+        text: Talks
+      - href: cv.qmd
+        text: CV
+    right:
+      - text: EnGeL lab
+        href: https://envigenomics.eu
+      - text: Protocols
+        href: https://luiscunhamx.github.io/EnGeL-Repository/
+      - icon: github
+        href: https://github.com/luiscunhamx
+        aria-label: GitHub
+  page-footer:
+    left: "© Luís Cunha · Text CC BY 4.0"
+    right: "[EnGeL lab](https://envigenomics.eu) · [Protocol handbook](https://luiscunhamx.github.io/EnGeL-Repository/) · [ORCID](https://orcid.org/0000-0002-5870-2537)"
+
+format:
+  html:
+    theme: [cosmo, styles.scss]
+    toc: true
+    toc-depth: 2
+    smooth-scroll: true

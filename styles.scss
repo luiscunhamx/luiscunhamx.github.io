@@ -1,0 +1,59 @@
+/*-- scss:defaults --*/
+// Soil-profile palette: ink of humus, moss for action, horizons for the figures.
+$ink: #1f2520;
+$moss: #2d5a3c;
+$paper: #f4f6f2;
+$humus: #2e2219;
+$topsoil: #5d4330;
+$subsoil: #9a6c42;
+$parent: #c7ab84;
+$rock: #6c7173;   // volcanic tephra
+
+$primary: $moss;
+$body-bg: $paper;
+$body-color: $ink;
+$link-color: $moss;
+$navbar-bg: $humus;
+$font-family-sans-serif: "Public Sans", system-ui, sans-serif;
+$headings-font-family: "Fraunces", Georgia, serif;
+$font-size-root: 17px;
+$headings-font-weight: 500;
+
+/*-- scss:rules --*/
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,700&family=Public+Sans:wght@400;600&display=swap');
+
+.hero { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(280px, .9fr); gap: 3.5rem; align-items: start; max-width: 1120px; margin: 2.5rem auto 1rem; }
+.hero h1 { font-size: clamp(2.8rem, 6vw, 4.6rem); font-weight: 700; letter-spacing: -.02em; line-height: 1; margin: 0 0 1.2rem; }
+.lede { display: block; font-family: "Fraunces", Georgia, serif; font-size: 1.45rem; line-height: 1.35; color: $topsoil; margin-bottom: 1.2rem; max-width: 32ch; }
+.hero-text p { max-width: 62ch; }
+.actions { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1.4rem; }
+.actions p { display: contents; }
+.btn { border-radius: 4px; }
+
+/* The memorable element: figures stacked as soil horizons in a core. */
+.core { border-radius: 6px 6px 2px 2px; overflow: hidden; box-shadow: inset 0 0 0 1px rgba(0,0,0,.08); }
+.hz { display: flex; align-items: baseline; gap: .9rem; padding: .9rem 1.2rem; color: #fff; }
+.hz-n { font-family: "Fraunces", Georgia, serif; font-size: 2.1rem; font-weight: 700; line-height: 1; min-width: 3.6ch; }
+.hz-l { font-size: .92rem; line-height: 1.3; }
+.hz-humus   { background: $humus; padding-top: 1.3rem; padding-bottom: 1.3rem; }
+.hz-topsoil { background: $topsoil; padding-top: 1.1rem; padding-bottom: 1.1rem; }
+.hz-subsoil { background: $subsoil; }
+.hz-parent  { background: $parent; color: $humus; }
+.hz-rock    { background: $rock; background-image: radial-gradient(rgba(255,255,255,.18) 1px, transparent 1.5px); background-size: 9px 9px; }
+.core-note { font-size: .8rem; color: #5b625c; margin-top: .5rem; }
+
+.home-body { max-width: 1120px; margin: 0 auto 3rem; }
+.home-body h2 { margin-top: 3rem; border-top: 1px solid rgba($humus, .15); padding-top: 1.2rem; }
+.bring { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2.2rem; }
+.bring h3 { font-size: 1.2rem; margin-top: .4rem; }
+.bring p { font-size: .97rem; }
+.out-chart { margin: 2.2rem 0 0; max-width: 640px; }
+.out-chart rect { fill: $subsoil; }
+.out-chart text { font-size: 10px; fill: #5b625c; text-anchor: middle; font-family: "Public Sans", sans-serif; }
+.out-chart figcaption { font-size: .85rem; color: #5b625c; }
+
+@media (max-width: 860px) {
+  .hero { grid-template-columns: 1fr; gap: 2rem; margin-top: 1.2rem; }
+  .bring { grid-template-columns: 1fr; gap: 1rem; }
+}
+a:focus-visible, .btn:focus-visible { outline: 3px solid $subsoil; outline-offset: 2px; }

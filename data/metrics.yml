@@ -1,0 +1,10 @@
+# Hand-maintained headline figures for the home page. A figure left empty is not shown.
+# Every figure needs its source and date: hiring panels check them.
+h_index: 20            # stated by Luís, 2026-11-17
+h_index_source: "[TO CONFIRM: Google Scholar, Scopus or Web of Science]"
+citations:             # Google Scholar had 859 in January 2026 — update before showing
+citations_source:
+funding_total_eur:     # to confirm (application text: ~€48M across all roles; ~€7M to UC; >€1.2M as PI at UC)
+funding_pi_eur:
+teaching_hours: 1563   # application, January 2026: UC 253 h + University of South Wales 1310 h
+as_of: "2026-11"

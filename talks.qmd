@@ -1,0 +1,6 @@
+---
+title: "Talks"
+subtitle: "Invited talks"
+---
+
+{{< include _gen/talks.md >}}

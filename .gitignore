@@ -1,0 +1,8 @@
+/_site/
+/.quarto/
+*_files/
+__pycache__/
+*.xlsx
+.DS_Store
+Thumbs.db
+desktop.ini
