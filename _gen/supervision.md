@@ -9,6 +9,7 @@
 - **Talita Ferreira** (PhD, 2016–2020). *Relação entre as Minhocas Pontoscolex corethrurus a a Fertilidade do Solo: O Caso das Terras Pretas de Índio e Seus Componentes (Biochar, Matéria Orgânica, Cerâmica, Ca e P)*. , Federal University of Paraná, Brazil. Co-supervisor.
 - **David Stanton** (Postdoc, 2015-2018). *Tracking Human Settlement in Neotropical Rainforests*. Postdoctoral Research Project, Cardiff University, School of Biosciences (Co-I: Peter Kille). Co-supervisor.
 - **Wilian Demetrio** (PhD, 2015–2019). *Soil Macroinvertebrates and Soil Quality in Amazonian Dark Earths and Adjacent Soils*. PhD in Soil Science, Federal University of Paraná, Brazil. Co-supervisor.
+- **Catarina Pinho** (Researcher, ). **. , . .
 
 ## Master’s and undergraduate
 

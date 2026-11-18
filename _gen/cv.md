@@ -3,7 +3,7 @@
 ## Positions
 
 - **Coordinating Researcher**, University of Coimbra, Portugal (2025 – today)
-- **Associate Researcher**, University of Coimbra, Portugal (2019 – 2025)
+- **Assistant Researcher**, University of Coimbra, Portugal (2019 – 2025)
 - **Lecturer in Ecology**, University of South Wales, UK (2018 – 2019)
 - **Marie Curie Fellow**, Cardiff University, UK & EMBRAPA-Florestas, Brazil (2015 – 2018)
 - **Research Associate, School of Biosciences**, Cardiff University, UK (2012 – 2015)
