@@ -82,7 +82,7 @@ if num(M.get('citations')): layers.append(('topsoil', f"{int(M['citations']):,}"
 layers.append(('topsoil', str(n_pubs), 'peer-reviewed papers and chapters', None))
 if num(M.get('funding_total_eur')): layers.append(('subsoil', eur(M['funding_total_eur']), 'research funding', None))
 layers.append(('subsoil', str(len(proj)), f'research projects, {len(led)} as PI, Co-I or WP leader', None))
-layers.append(('parent', str(len(phd) + len(oth)), f'students and researchers supervised ({len(phd)} PhD or postdoc)', None))
+layers.append(('parent', str(len(phd) + len(oth)), f'students and researchers supervised ({len(phd)} PhD, postdoc or researcher)', None))
 if num(M.get('teaching_hours')): layers.append(('rock', f"{int(M['teaching_hours']):,}".replace(',', ' '), 'hours of university teaching', None))
 core = ''.join(f'<div class="hz hz-{c}"><span class="hz-n">{H.escape(n)}</span><span class="hz-l">{H.escape(l)}</span></div>' for c, n, l, s in layers)
 write('core', f'<div class="core" aria-label="Career in figures">{core}</div>\n<p class="core-note">Figures as of {M.get("as_of","")}. Sources: CV and publication databases.</p>')

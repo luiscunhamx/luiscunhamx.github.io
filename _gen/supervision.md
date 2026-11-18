@@ -4,12 +4,13 @@
 
 - **Clotilde Nhancale** (PhD, 2024–2028). *Soil fauna and Tree Rings: Unlocking Soil-Plant Interactions in Miombo Forests under Climate effects*. PhD in Biosciences, Ecology, Department of Life Sciences, University of Coimbra. Main Supervisor.
 - **Sandra Simões** (PhD, 2024–2028). *Integrating Morphological and Multi-Marker Genetic Analysis for Ecological Insights into Otters: A Case Study of the Mondego River System in Portugal*. PhD in Biosciences, Ecology, Department of Life Sciences, University of Coimbra. Main Supervisor.
-- **Ricardo Leitão** (PhD, 2021–2025). *Evaluation of Microbial Bioindicators of Soil Health and Ecosystem Function in Agricultural Systems*. PhD in Biosciences, Ecology, Department of Life Sciences, University of Coimbra. Co-supervisor.
+- **Ricardo Leitão** (PhD, 2021–2026). *Evaluation of Microbial Bioindicators of Soil Health and Ecosystem Function in Agricultural Systems*. PhD in Biosciences, Ecology, Department of Life Sciences, University of Coimbra. Co-supervisor.
 - **Rafaela Dudas** (PhD, 2021–2024). *Earthworm Biodiversity and Their Role as Bioindicators in Different Land Use Systems and Brazilian Biomes*. PhD in Soil Science, Federal University of Paraná, Brazil. Co-supervisor.
 - **Talita Ferreira** (PhD, 2016–2020). *Relação entre as Minhocas Pontoscolex corethrurus a a Fertilidade do Solo: O Caso das Terras Pretas de Índio e Seus Componentes (Biochar, Matéria Orgânica, Cerâmica, Ca e P)*. , Federal University of Paraná, Brazil. Co-supervisor.
 - **David Stanton** (Postdoc, 2015-2018). *Tracking Human Settlement in Neotropical Rainforests*. Postdoctoral Research Project, Cardiff University, School of Biosciences (Co-I: Peter Kille). Co-supervisor.
 - **Wilian Demetrio** (PhD, 2015–2019). *Soil Macroinvertebrates and Soil Quality in Amazonian Dark Earths and Adjacent Soils*. PhD in Soil Science, Federal University of Paraná, Brazil. Co-supervisor.
-- **Catarina Pinho** (Researcher, ). **. , . .
+- **Nadja den Besten** (Researcher, ). *Assistant Researcher — remote sensing, hydrology and soil-water monitoring*. Researcher (PhD, Remote Sensing, Delft University of Technology), Centre for Functional Ecology, University of Coimbra (EnGeL-UC). .
+- **Catarina Pinho** (Researcher, ). *Junior Researcher — DNA metabarcoding, trophic ecology and conservation biology*. Researcher (PhD, Biodiversity, Genetics and Evolution, University of Porto), Centre for Functional Ecology, University of Coimbra (EnGeL-UC). .
 
 ## Master’s and undergraduate
 

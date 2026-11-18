@@ -13,7 +13,7 @@
 - **SYBERAC – Towards a SYstems-Based, holistic Environmental Risk Assessment of Chemicals** (2024–2028)  
   Researcher · PI: Nico van den Brink · Horizon Europe (Grant Agreement 101135213 — HORIZON-CL6-2023-BIODIV-01-1)
 - **EESE (EFSA) – EU Environmental Scenarios for ERA of Non-Target Organisms** (2024–2028)  
-  Researcher · PI: Nico van den Brink · Horizon Europe — OC/EFSA/PREV/2023/02
+  Researcher · PI: Nico van den Brink · EFSA — OC/EFSA/PREV/2023/02
 - **GRASS4FUN – Monitoring the contribution of European grasslands to the conservation of soil biodiversity and ecosystem function under multiple global change stressors** (2024–2026)  
   Researcher · PI: Manuel Delgado-Baquerizo & Pablo García-Palacios · Biodiversa+ — 2022 – 2023 BiodivMon
 - **VALERECO – Valorization Legumes Related Ecosystem Services** (2024–2028)  
