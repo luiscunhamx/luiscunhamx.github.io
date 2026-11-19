@@ -17,6 +17,7 @@
 - Coordinator, Environmental Genomics Laboratory (EnGeL-UC), UC Biotech, University of Coimbra (Since April 2025)
 - Co-coordinator, Soil Health Research Line, Centre for Functional Ecology (CFE), University of Coimbra (Since January 2024)
 - Co-coordinator, Thematic Line 2 – Sustainable Agriculture, Forestry and Fisheries, LabTerra – Laboratory for Land Use Sustainability and Ecosystem Services (Since November 2023)
+- Work Package 4 leader (Approaches for Soil Health Assessment); led the WP4 sessions at the kick-off meeting (Wageningen, 2023) and the General Assemblies (Coimbra 2024, Nancy 2025, Berlin 2026), BENCHMARKS, Horizon Europe (GA 101091010) (Since 2023)
 
 ## Education
 
