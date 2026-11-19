@@ -129,3 +129,13 @@ if F:
 <p class="fund-note">Amounts as recorded in my CV; non-euro grants converted at ECB annual average rates for the start year, so totals are approximate. The combined budget is the sum of whole-project budgets, not funding to me.</p>
 </section>''')
     print('funding panel written')
+
+# Research page photo strip (data/research_figures.yml: list of {src, caption, credit}); empty if none.
+RF = yaml.safe_load(open('data/research_figures.yml', encoding='utf-8')) if os.path.exists('data/research_figures.yml') else None
+if RF:
+    figs = ''.join(f'<figure class="rf"><img src="{H.escape(f["src"])}" alt="{H.escape(f["caption"])}" loading="lazy">'
+                   f'<figcaption>{H.escape(f["caption"])}<span class="rf-c">Photo: {H.escape(f.get("credit",""))}</span></figcaption></figure>'
+                   for f in RF)
+    write('research_figures', f'<div class="rf-strip">{figs}</div>')
+else:
+    write('research_figures', '')
