@@ -99,3 +99,33 @@ sel = yaml.safe_load(open('data/selected.yml', encoding='utf-8')) or []
 bydoi = {p.get('doi'): p for p in pubs}
 write('selected', '\n'.join(f'- {cite(bydoi[d])}' for d in sel if d in bydoi))
 print('home page written')
+
+# Funding panel for the Projects page (totals and counts only; see data/funding_summary.yml).
+F = yaml.safe_load(open('data/funding_summary.yml', encoding='utf-8')) if os.path.exists('data/funding_summary.yml') else None
+if F:
+    def m(v, plus=False):
+        return (f'€{v/1e6:.1f}M' if v < 1e7 else f'€{v/1e6:.0f}M') + ('+' if plus else '')
+    tilde = '≈' if F.get('approximate') else ''
+    names = ', '.join(reversed(F.get('secured_projects', [])))
+    top = max(F['by_funder'].values())
+    bars = ''.join(
+        f'<div class="fb-row"><span class="fb-l">{H.escape(k)}</span>'
+        f'<span class="fb-bar"><span style="width:{100*v/top:.0f}%"></span></span><span class="fb-n">{v}</span></div>'
+        for k, v in F['by_funder'].items())
+    lead = F['by_role'].get('PI, Co-I or WP leader', 0); team = F['by_role'].get('Researcher or team member', 0)
+    write('funding', f'''<section class="fund" aria-label="Funding in figures">
+<div class="fund-figs">
+<div class="fund-fig fund-main"><span class="fund-n">{m(F["secured_uc_as_pi_or_coordinator_eur"])}</span>
+<span class="fund-l">secured for the University of Coimbra as PI or coordinator</span>
+<span class="fund-s">{H.escape(names)}</span></div>
+<div class="fund-fig"><span class="fund-n">{m(F["combined_budget_eur"], plus=True)}</span>
+<span class="fund-l">combined budget of the projects I have worked on</span>
+<span class="fund-s">{F["combined_budget_projects_with_known_budget"]} of {F["projects"]} projects have a recorded budget</span></div>
+<div class="fund-fig"><span class="fund-n">{lead}</span>
+<span class="fund-l">projects as PI, Co-I or work-package leader</span>
+<span class="fund-s">and {team} as researcher or team member</span></div>
+</div>
+<div class="fund-bars"><p class="fb-title">Projects by funder</p>{bars}</div>
+<p class="fund-note">Amounts as recorded in my CV; non-euro grants converted at ECB annual average rates for the start year, so totals are approximate. The combined budget is the sum of whole-project budgets, not funding to me.</p>
+</section>''')
+    print('funding panel written')

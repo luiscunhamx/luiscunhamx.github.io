@@ -3,4 +3,8 @@ title: "Projects"
 subtitle: "Research projects and grants, newest first"
 ---
 
+{{< include _gen/funding.md >}}
+
+## All projects
+
 {{< include _gen/projects.md >}}

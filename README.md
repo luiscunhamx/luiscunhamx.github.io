@@ -15,7 +15,7 @@ After editing the workbook, refresh the site with one command (from this folder)
 
 On Windows you can also double-click `refresh.bat`, or in VS Code run *Terminal → Run Task → Portfolio: refresh from CV*.
 
-The privacy check stops the refresh if the public files contain an e-mail address other than the UC or lab contact, a phone number, or a value marked `[TO CONFIRM]`. Only the sheets and columns listed in `PUBLIC` (in `tools/make_public_data.py`) are copied; referees, non-approved projects, external services, funding amounts, notes, annexes, courses and the checklist sheets never leave the workbook.
+The privacy check stops the refresh if the public files contain an e-mail address other than the UC or lab contact, a phone number, or a value marked `[TO CONFIRM]`. Only the sheets and columns listed in `PUBLIC` (in `tools/make_public_data.py`) are copied; referees, non-approved projects, external services, funding amounts, notes, annexes, courses and the checklist sheets never leave the workbook. For funding, only totals and counts are written (`data/funding_summary.yml`), never per-project amounts.
 
 First time only: `python -m pip install openpyxl pyyaml`.
 

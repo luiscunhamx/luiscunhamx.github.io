@@ -57,3 +57,25 @@ $headings-font-weight: 500;
   .bring { grid-template-columns: 1fr; gap: 1rem; }
 }
 a:focus-visible, .btn:focus-visible { outline: 3px solid $subsoil; outline-offset: 2px; }
+
+/* Funding panel (Projects page): the same soil palette, read left to right. */
+.fund { margin: 0 0 2.2rem; }
+.fund-figs { display: grid; grid-template-columns: 1.3fr 1fr 1fr; gap: 0; border-radius: 6px; overflow: hidden; box-shadow: inset 0 0 0 1px rgba(0,0,0,.08); }
+.fund-fig { display: flex; flex-direction: column; gap: .25rem; padding: 1.1rem 1.2rem; background: $parent; color: $humus; }
+.fund-fig.fund-main { background: $humus; color: #fff; }
+.fund-fig:nth-child(2) { background: $topsoil; color: #fff; }
+.fund-n { font-family: "Fraunces", Georgia, serif; font-size: 2.2rem; font-weight: 700; line-height: 1; }
+.fund-main .fund-n { font-size: 2.8rem; }
+.fund-l { font-size: .95rem; line-height: 1.3; }
+.fund-s { font-size: .8rem; opacity: .85; line-height: 1.3; }
+.fund-bars { margin-top: 1.2rem; max-width: 40rem; }
+.fb-title { font-weight: 600; margin-bottom: .4rem; }
+.fb-row { display: grid; grid-template-columns: 17rem 1fr 2rem; align-items: center; gap: .7rem; margin: .25rem 0; font-size: .9rem; }
+.fb-bar { background: rgba($subsoil, .15); height: .7rem; border-radius: 2px; overflow: hidden; }
+.fb-bar span { display: block; height: 100%; background: $subsoil; }
+.fb-n { text-align: right; font-variant-numeric: tabular-nums; }
+.fund-note { font-size: .8rem; color: #5b625c; margin-top: .6rem; }
+@media (max-width: 760px) {
+  .fund-figs { grid-template-columns: 1fr; }
+  .fb-row { grid-template-columns: 1fr 5rem 1.5rem; }
+}
