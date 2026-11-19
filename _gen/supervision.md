@@ -3,6 +3,9 @@
 ## Doctoral and postdoctoral
 
 - **Johnny Gabriel Brenes Bravo** (PhD, 2027–2030). *WORMRESIST – Assessing how earthworms shape antibiotic resistance in soil and their role in trophic transfer dynamics (provisional title)*. PhD in Biosciences, Ecology, Department of Life Sciences, University of Coimbra. Main Supervisor.
+- **Luísa Fraga Dornellas** (PhD, 2027 (planned start)). *Rebuilding lost heritage: integrative taxonomy and molecular tools for Atlantic Forest soil beetle diversity research (provisional title)*. PhD in Biosciences, Ecology, Department of Life Sciences, University of Coimbra. Main Supervisor.
+- **Catarina Pinho** (Researcher, 2026–present). *Junior Researcher — DNA metabarcoding, trophic ecology and conservation biology*. Researcher (PhD, Biodiversity, Genetics and Evolution, University of Porto), Centre for Functional Ecology, University of Coimbra (EnGeL-UC). .
+- **Nadja den Besten** (Researcher, 2025–present). *Assistant Researcher — remote sensing, hydrology and soil-water monitoring*. Researcher (PhD, Remote Sensing, Delft University of Technology), Centre for Functional Ecology, University of Coimbra (EnGeL-UC). Line manager.
 - **Clotilde Nhancale** (PhD, 2024–2028). *Soil fauna and Tree Rings: Unlocking Soil-Plant Interactions in Miombo Forests under Climate effects*. PhD in Biosciences, Ecology, Department of Life Sciences, University of Coimbra. Main Supervisor.
 - **Sandra Simões** (PhD, 2024–2028). *Integrating Morphological and Multi-Marker Genetic Analysis for Ecological Insights into Otters: A Case Study of the Mondego River System in Portugal*. PhD in Biosciences, Ecology, Department of Life Sciences, University of Coimbra. Main Supervisor.
 - **Ricardo Leitão** (PhD, 2021–2026). *Evaluation of Microbial Bioindicators of Soil Health and Ecosystem Function in Agricultural Systems*. PhD in Biosciences, Ecology, Department of Life Sciences, University of Coimbra. Co-supervisor.
@@ -10,13 +13,10 @@
 - **Talita Ferreira** (PhD, 2016–2020). *Relação entre as Minhocas Pontoscolex corethrurus a a Fertilidade do Solo: O Caso das Terras Pretas de Índio e Seus Componentes (Biochar, Matéria Orgânica, Cerâmica, Ca e P)*. , Federal University of Paraná, Brazil. Co-supervisor.
 - **David Stanton** (Postdoc, 2015-2018). *Tracking Human Settlement in Neotropical Rainforests*. Postdoctoral Research Project, Cardiff University, School of Biosciences (Co-I: Peter Kille). Co-supervisor.
 - **Wilian Demetrio** (PhD, 2015–2019). *Soil Macroinvertebrates and Soil Quality in Amazonian Dark Earths and Adjacent Soils*. PhD in Soil Science, Federal University of Paraná, Brazil. Co-supervisor.
-- **Luísa Fraga Dornellas** (PhD, ). *Rebuilding lost heritage: integrative taxonomy and molecular tools for Atlantic Forest soil beetle diversity research (provisional title)*. PhD in Biosciences, Ecology, Department of Life Sciences, University of Coimbra. Main Supervisor.
-- **Nadja den Besten** (Researcher, ). *Assistant Researcher — remote sensing, hydrology and soil-water monitoring*. Researcher (PhD, Remote Sensing, Delft University of Technology), Centre for Functional Ecology, University of Coimbra (EnGeL-UC). .
-- **Catarina Pinho** (Researcher, ). *Junior Researcher — DNA metabarcoding, trophic ecology and conservation biology*. Researcher (PhD, Biodiversity, Genetics and Evolution, University of Porto), Centre for Functional Ecology, University of Coimbra (EnGeL-UC). .
 
 ## Master’s and undergraduate
 
-- **Alba Sandín** (MSc, 2026–2027). *eDNA to measure biodiversity and assess urbanisation impacts on urban streams in Coimbra (Portugal) (provisional title)*. MSc thesis, Lund University, Sweden (molecular work at EnGeL-UC). .
+- **Alba Sandín** (MSc, 2026–2027). *eDNA to measure biodiversity and assess urbanisation impacts on urban streams in Coimbra (Portugal) (provisional title)*. MSc thesis, Lund University, Sweden (molecular work at EnGeL-UC). Main Supervisor.
 - **Beatriz Siopa** (MSc, 2026–2027). *Reproductive viability failure of Globodera spp. in laboratory*. Master in Cellular and Molecular Biology, Department of Life Sciences, University of Coimbra. Co-supervisor.
 - **Silvia Mónica Avilés Marín** (Visiting researcher, 2026). *Research stay (CuMex-AUIP programme)*. —, Universidad Autónoma de Baja California (UABC), Mexico. Host.
 - **Lyandra Maria de Oliveira** (MSc Internship, 2025). *Use of biological products for herbicide remediation in soil*. MSc in Biological Sciences (exchange programme), University of Coimbra / Federal Rural University of the Semi-Arid (UFERSA), Brazil. Main Supervisor.
