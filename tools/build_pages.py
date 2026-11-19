@@ -69,7 +69,7 @@ print('pages written')
 # ---------- home page: headline figures, evidence blocks, selected work, output chart ----------
 import html as H
 M = yaml.safe_load(open('data/metrics.yml', encoding='utf-8')) or {}
-phd = load('supervision_phd'); oth = load('supervision_other'); proj = load('projects')
+phd = load('supervision_phd'); oth = [s for s in load('supervision_other') if 'visiting' not in str(s.get('level','')).lower()]; proj = load('projects')
 led = [p for p in proj if re.match(r'(PI|WP Leader|Co-I)', str(p.get('role', '')))]
 n_pubs = len(pubs) + len(load('chapters'))
 def num(v): return v not in (None, '') and '[TO CONFIRM' not in str(v)
