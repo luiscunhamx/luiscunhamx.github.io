@@ -124,7 +124,9 @@ def funding_summary(wb):
             u, ua = _amount(r[i['UC Funding']], funder, year)
             if u:
                 secured += u; approx |= ua
-                secured_names.append(name.split(' – ')[0].split(' - ')[0].strip())
+                short = name.split(' – ')[0].split(' - ')[0].split(':')[0].strip()
+                if 'Scientific Employment' in str(funder): short = f'FCT CEEC ({short})'
+                secured_names.append(short)
     out = {'projects': n, 'projects_lead': n_lead,
            'secured_uc_as_pi_or_coordinator_eur': round(secured), 'secured_projects': secured_names,
            'combined_budget_eur': round(total), 'combined_budget_projects_with_known_budget': n_known,

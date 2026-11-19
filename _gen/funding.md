@@ -2,9 +2,9 @@
 
 <section class="fund" aria-label="Funding in figures">
 <div class="fund-figs">
-<div class="fund-fig fund-main"><span class="fund-n">€1.3M</span>
+<div class="fund-fig fund-main"><span class="fund-n">€1.5M</span>
 <span class="fund-l">secured for the University of Coimbra as PI or coordinator</span>
-<span class="fund-s">BENCHMARKS, La Caixa Monte Regen Hub, HydroDataCube4EU</span></div>
+<span class="fund-s">FCT CEEC (Dirty Footprints), BENCHMARKS, La Caixa Monte Regen Hub, HydroDataCube4EU</span></div>
 <div class="fund-fig"><span class="fund-n">€43M+</span>
 <span class="fund-l">combined budget of the projects I have worked on</span>
 <span class="fund-s">26 of 34 projects have a recorded budget</span></div>

@@ -2,11 +2,12 @@
 # Non-euro awards converted at ECB annual average rates for the start year (approximate).
 projects: 34
 projects_lead: 13
-secured_uc_as_pi_or_coordinator_eur: 1275089
+secured_uc_as_pi_or_coordinator_eur: 1505089
 secured_projects:
 - HydroDataCube4EU
 - La Caixa Monte Regen Hub
 - BENCHMARKS
+- FCT CEEC (Dirty Footprints)
 combined_budget_eur: 43260711
 combined_budget_projects_with_known_budget: 26
 approximate: true
