@@ -2,6 +2,8 @@
 title: "Teaching & supervision"
 ---
 
+{{< include _gen/teaching_panel.md >}}
+
 ## Teaching
 
 {{< include _gen/teaching.md >}}
