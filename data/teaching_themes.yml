@@ -1,0 +1,27 @@
+# Hand-maintained: groups course units into themes for the teaching map (Teaching & supervision page).
+# Course units are matched by title, ignoring a trailing note in brackets, e.g. "(Practical)".
+# Every course unit in teaching.yml must appear here, or tools/build_pages.py stops.
+# Themes are listed in display order; colours follow the soil palette in styles.scss.
+- theme: Field ecology and field courses
+  units:
+    - Big Game Tracking / African Biodiversity
+    - Field Course in Mediterranean Ecosystems
+    - Field Course in Tropical Ecosystems
+    - Field Techniques in Ecology
+- theme: Research skills and statistics
+  units:
+    - Biological Research Skills
+    - Biostatistics
+- theme: Conservation and wildlife genetics
+  units:
+    - Conservation Genetics and Wildlife Management
+    - Terrestrial and Aquatic Conservation
+- theme: Evolution, biogeography and organismal biology
+  units:
+    - Marine and Freshwater Biology
+    - Evolutionary Botany and Zoology
+    - Evolutionary Biogeography and Spatial Modelling
+- theme: Applied ecology and ecotoxicology
+  units:
+    - Advanced Topics in Applied Ecology
+    - Ecotoxicology and Ecological Risk Assessment
