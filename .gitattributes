@@ -1,1 +1,8 @@
+# Keep text files with LF line endings in the repository, whatever the operating system writes.
+* text=auto eol=lf
 *.bat text eol=crlf
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.pdf binary
