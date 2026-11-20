@@ -37,7 +37,7 @@ Key outputs:
 
 - Cunha et al. (2014) [Living on a volcano's edge: genetic isolation of an extremophile terrestrial metazoan](https://doi.org/10.1038/hdy.2013.84). *Heredity*.
 - Perry et al. (2022) [Molecular insights into high-altitude adaptation of *Aporrectodea caliginosa*](https://doi.org/10.26508/lsa.202201513). *Life Science Alliance*.
-- Novo et al. (2014) [The functional ghost in the genome machine: environmentally induced changes](https://doi.org/10.1016/j.toxlet.2014.06.095). *Toxicology Letters*.
+- Talavera et al. (2020) [Anthropogenic disturbance and environmental factors drive earthworm diversity in São Miguel Island (Azores)](https://doi.org/10.1016/j.apsoil.2019.06.004). *Applied Soil Ecology*.
 
 ## Farming, chemicals and soil life
 
