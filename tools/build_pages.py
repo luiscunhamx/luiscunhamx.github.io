@@ -52,7 +52,7 @@ write('supervision', '## Doctoral and postdoctoral\n\n' + '\n'.join(f'- {sup(r)}
 
 teach = load('teaching')
 write('teaching', '| Academic year | Course unit | Programme(s) | Institution | Hours |\n|:--|:--|:--|:--|--:|\n' + '\n'.join(
-    f"| {t.get('year','')} | {esc(t.get('title',''))} | {esc(t.get('courses',''))} | {esc(t.get('institution',''))} | {t.get('hours','')} |"
+    f"| {str(t.get('year','')).replace('/', '–')} | {esc(t.get('title',''))} | {esc(t.get('courses',''))} | {esc(t.get('institution',''))} | {t.get('hours','')} |"
     for t in sorted(teach, key=lambda t: -ystart(t.get('year')))))
 
 cv = ['## Positions\n'] + [f"- **{esc(e['position'])}**, {esc(e.get('institution',''))} ({e.get('period','')})" for e in load('experience')]
@@ -129,6 +129,50 @@ if F:
 <p class="fund-note">Amounts as recorded in my CV; non-euro grants converted at ECB annual average rates for the start year, so totals are approximate. The combined budget is the sum of whole-project budgets, not funding to me.</p>
 </section>''')
     print('funding panel written')
+
+# Teaching & supervision panel (counts only, all from data/teaching.yml and data/supervision_*.yml).
+import datetime
+def yend(s): ys = re.findall(r'(?:19|20)\d\d', str(s)); return int(ys[-1]) if ys else 0
+def ongoing(r):  # ongoing if planned, open-ended, or ending after the current year
+    y = str(r.get('years', '')).lower()
+    return 'planned' in y or 'present' in y or yend(y) > datetime.date.today().year
+def hrs(t):
+    try: return float(t.get('hours') or 0)
+    except ValueError: return 0
+T_h = {}
+for t in teach: T_h[t.get('institution', '')] = T_h.get(t.get('institution', ''), 0) + hrs(t)
+t_total = int(sum(T_h.values())); units = len({t.get('title') for t in teach})
+sup_all = phd + oth   # visiting researchers already left out of oth, as on the home page
+phds = [r for r in phd if r.get('level') == 'PhD']
+p_on = sum(ongoing(r) for r in phds); p_main = sum('main' in str(r.get('role', '')).lower() for r in phds)
+def group(lv):
+    lv = str(lv).lower()
+    if 'intern' in lv or 'erasmus' in lv: return 'Internships and Erasmus'
+    if lv == 'phd': return 'PhD'
+    if lv.startswith('msc'): return 'MSc'
+    if lv.startswith('bsc'): return 'BSc'
+    return 'Postdoc, fellow and researchers'
+G = Counter(group(r.get('level')) for r in sup_all)
+order = ['BSc', 'MSc', 'PhD', 'Internships and Erasmus', 'Postdoc, fellow and researchers']
+gtop = max(G.values())
+gbars = ''.join(f'<div class="fb-row"><span class="fb-l">{H.escape(k)}</span><span class="fb-bar"><span style="width:{100*G[k]/gtop:.0f}%"></span></span><span class="fb-n">{G[k]}</span></div>' for k in order if G.get(k))
+sp = lambda n: f"{n:,}".replace(',', ' ')
+inst = ' and '.join(f'{sp(int(v))} h {H.escape(k)}' for k, v in sorted(T_h.items(), key=lambda kv: -kv[1]))
+write('teaching_panel', f'''<section class="fund" aria-label="Teaching and supervision in figures">
+<div class="fund-figs">
+<div class="fund-fig fund-main"><span class="fund-n">{sp(t_total)}</span>
+<span class="fund-l">hours of university teaching</span>
+<span class="fund-s">{inst}, across {units} course units</span></div>
+<div class="fund-fig"><span class="fund-n">{len(sup_all)}</span>
+<span class="fund-l">supervisions, from BSc to postdoc</span>
+<span class="fund-s">students, interns and researchers</span></div>
+<div class="fund-fig"><span class="fund-n">{len(phds)}</span>
+<span class="fund-l">PhD students</span>
+<span class="fund-s">{p_on} ongoing, {len(phds) - p_on} completed; {p_main} as main supervisor</span></div>
+</div>
+<div class="fund-bars"><p class="fb-title">Supervisions by level</p>{gbars}</div>
+</section>''')
+print('teaching panel written')
 
 # Research page photo strip (data/research_figures.yml: list of {src, caption, credit}); empty if none.
 RF = yaml.safe_load(open('data/research_figures.yml', encoding='utf-8')) if os.path.exists('data/research_figures.yml') else None
