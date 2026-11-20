@@ -4,7 +4,7 @@
 <div class="fund-figs">
 <div class="fund-fig fund-main"><span class="fund-n">1 563</span>
 <span class="fund-l">hours of university teaching</span>
-<span class="fund-s">1 310 h University of South Wales and 253 h University of Coimbra, across 15 course units</span></div>
+<span class="fund-s">1 310 h University of South Wales and 253 h University of Coimbra, across 13 course units</span></div>
 <div class="fund-fig"><span class="fund-n">58</span>
 <span class="fund-l">supervisions, from BSc to postdoc</span>
 <span class="fund-s">students, interns and researchers</span></div>

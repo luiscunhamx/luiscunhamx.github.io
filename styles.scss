@@ -80,6 +80,32 @@ a:focus-visible, .btn:focus-visible { outline: 3px solid $subsoil; outline-offse
   .fb-row { grid-template-columns: 1fr 5rem 1.5rem; }
 }
 
+/* Teaching map (Teaching & supervision page): one soil colour per theme. */
+.tm-c0 { --tc: #{$humus}; } .tm-c1 { --tc: #{$topsoil}; } .tm-c2 { --tc: #{$subsoil}; } .tm-c3 { --tc: #{$parent}; } .tm-c4 { --tc: #{$rock}; }
+.tmap { margin: 0 0 2.4rem; max-width: 52rem; }
+.tm-theme { margin: 0 0 1rem; }
+.tm-head { display: grid; grid-template-columns: minmax(10rem, 19rem) 1fr 4.5rem; align-items: center; gap: .7rem; }
+.tm-name { font-weight: 600; }
+.tm-bar { background: rgba($subsoil, .15); height: .8rem; border-radius: 2px; overflow: hidden; }
+.tm-bar span { display: block; height: 100%; background: var(--tc); }
+.tm-h, .tm-uh { text-align: right; font-variant-numeric: tabular-nums; }
+.tm-units { list-style: none; margin: .3rem 0 0; padding: 0 0 0 .8rem; border-left: 3px solid var(--tc); }
+.tm-units li { display: flex; flex-wrap: wrap; align-items: baseline; gap: .35rem; font-size: .9rem; margin: .15rem 0; }
+.tm-u { margin-right: .2rem; }
+.tm-uh { margin-left: auto; color: #5b625c; }
+.tm-tag { font-size: .7rem; padding: .05rem .4rem; border-radius: 999px; background: rgba($subsoil, .14); color: $topsoil; }
+.tm-note { font-size: .8rem; color: #5b625c; margin: .4rem 0 1.4rem; }
+.tl-row { display: grid; grid-template-columns: minmax(0, 17rem) repeat(var(--n), 1fr); gap: 2px; align-items: center; font-size: .8rem; margin: 2px 0; }
+.tl-hdr span { text-align: center; color: #5b625c; font-variant-numeric: tabular-nums; }
+.tl-l { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; padding-right: .5rem; }
+.tl-cell { height: .75rem; background: rgba($subsoil, .08); border-radius: 2px; }
+.tl-cell.on { background: var(--tc); }
+@media (max-width: 760px) {
+  .tm-head { grid-template-columns: 1fr 4rem; } .tm-bar { grid-column: 1 / -1; grid-row: 2; }
+  .tl-row { grid-template-columns: minmax(0, 8.5rem) repeat(var(--n), 1fr); font-size: .68rem; }
+  .tl-hdr span { font-size: .56rem; letter-spacing: -.02em; }
+}
+
 /* Research page photo strip */
 .rf-strip { display: grid; grid-template-columns: repeat(4, 1fr); gap: .6rem; margin: 1.6rem 0 2rem; }
 .rf { margin: 0; }
