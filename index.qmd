@@ -6,7 +6,7 @@ page-layout: full
 
 ::: {.hero}
 ::: {.hero-text}
-# Luís Cunha
+# Luís Kalchhauser Cunha
 
 [Molecular ecologist reading soil biodiversity through genomes, from volcanic islands to Amazonian dark earths and European farmland.]{.lede}
 
