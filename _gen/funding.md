@@ -6,8 +6,7 @@
 <span class="fund-l">secured for the University of Coimbra as PI or coordinator</span>
 <span class="fund-s">FCT CEEC (Dirty Footprints), BENCHMARKS, La Caixa Monte Regen Hub, HydroDataCube4EU</span></div>
 <div class="fund-fig"><span class="fund-n">€43M+</span>
-<span class="fund-l">combined budget of the projects I have worked on</span>
-<span class="fund-s">26 of 34 projects have a recorded budget</span></div>
+<span class="fund-l">combined budget of the projects I have worked on</span></div>
 <div class="fund-fig"><span class="fund-n">13</span>
 <span class="fund-l">projects as PI, Co-I or work-package leader</span>
 <span class="fund-s">and 21 as researcher or team member</span></div>

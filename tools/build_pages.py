@@ -119,8 +119,7 @@ if F:
 <span class="fund-l">secured for the University of Coimbra as PI or coordinator</span>
 <span class="fund-s">{H.escape(names)}</span></div>
 <div class="fund-fig"><span class="fund-n">{m(F["combined_budget_eur"], plus=True)}</span>
-<span class="fund-l">combined budget of the projects I have worked on</span>
-<span class="fund-s">{F["combined_budget_projects_with_known_budget"]} of {F["projects"]} projects have a recorded budget</span></div>
+<span class="fund-l">combined budget of the projects I have worked on</span></div>
 <div class="fund-fig"><span class="fund-n">{lead}</span>
 <span class="fund-l">projects as PI, Co-I or work-package leader</span>
 <span class="fund-s">and {team} as researcher or team member</span></div>
